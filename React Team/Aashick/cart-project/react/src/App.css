@@ -1,0 +1,181 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+
+
+.nav ul {
+  margin: 0;
+}
+
+.nav li {
+  display: inline;
+}
+
+.nav a {
+  display: inline-block;
+  padding: .5em;
+  color: white;
+  text-decoration: none;
+}
+
+.main-nav {
+  text-align: center;
+  font-size: 1.1em;
+  font-weight: lighter;
+  border-bottom: 1px solid rgba(255, 255, 255, .3)
+}
+
+.main-nav li {
+  padding: 5%;
+}
+
+.nav a:hover {
+  background-color: rgba(255, 255, 255, .3)
+}
+
+.main-header {
+  background-color: rgba(0, 0, 0, .6);
+  background-image: url("component/Images/color-3.jpg");
+  background-position: 0vw;
+  background-blend-mode: screen;
+  background-size: cover;
+  padding-bottom: 30px;
+}
+
+.band-name {
+  text-align: center;
+  margin: 0;
+  font-size: 4em;
+  font-family: "Booter - Zero Zero";
+  font-weight: normal;
+  color: palegreen  ;
+}
+
+.band-name-large {
+  font-size: 8em;
+}
+
+.content-section {
+  margin: 1em;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 1.5em;
+}
+.section-header {
+  font-family: "Metal Mania";
+  font-weight: normal;
+  color: #333;
+  text-align: center;
+  font-size: 2.5em;
+}
+
+.main-footer {
+  background-color: rgba(0, 0, 0, .6);
+  background-image: url("component/Images/shopping-1.jpg");
+  /* background-color: #56CCF2; */
+  color: white;
+  padding: .25em 0;
+}
+
+.main-footer-container {
+  display: flex;
+  align-items: center;
+}
+
+.main-footer-container ul {
+  flex-grow: 1;
+  text-align: end;
+  display: -webkit-box;
+}
+
+.footer-nav li {
+  padding: 0 .5em;
+  background-color: rgb(80, 24, 24);
+  padding: .95em 0;
+}
+
+.footer-nav img {
+  width: 30px;
+  height: 30px;
+}
+
+
+.shop-item {
+  margin: 40px;
+}
+
+.shop-item-title {
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5em;
+  color: #333;
+  margin-bottom: 15px;
+  text-underline-position: below;
+}
+
+.shop-item-image {
+  height: 400px;
+}
+
+.shop-item-details {
+  display: block;
+  align-items: center;
+  padding: 15px;
+}
+
+.shop-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.btn{
+  margin-right: 8px;
+}
+
+.center{
+  margin-right: 8px;
+}
